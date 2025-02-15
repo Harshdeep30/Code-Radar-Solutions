@@ -8,7 +8,7 @@ int main(){
             break;
         }
     }
-    for(int i=0;i<a;i++){
+    
         if(prime=1){
             printf("Not Prime");
         }
@@ -16,6 +16,6 @@ int main(){
             printf("Prime");
         }
         
-    }return 0;
+    return 0;
     
 }
