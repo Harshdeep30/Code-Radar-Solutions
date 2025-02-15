@@ -15,7 +15,7 @@ int main(){
             break;
         }
         
-        }
+        
         else{
             printf("Prime");
             break;
