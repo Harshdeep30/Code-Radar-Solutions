@@ -2,7 +2,7 @@
 int main(){
     int p ,l ;
     scanf("%d %d",&p,&l);
-    if(p>l){
+    if(l>p){
         printf("Profit");
     }
     else{
