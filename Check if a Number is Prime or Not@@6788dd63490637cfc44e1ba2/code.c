@@ -5,7 +5,7 @@ int main(){
     for(int i=0;i<a;i++){
         if(a%i==0){
             prime=1;
-            break
+            break;
         }
     }
     for(int i=0;i<a;i++){
