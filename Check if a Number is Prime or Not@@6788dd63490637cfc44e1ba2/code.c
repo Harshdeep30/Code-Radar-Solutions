@@ -11,11 +11,11 @@ int main(){
     }
     for(int i=2;i<a;i++){
         if(prime=1){
-            printf("Prime");
+            printf("Not Prime");
             break;
         }
         else{
-            printf("Not Prime");
+            printf("Prime");
             break;
         }
         
