@@ -10,10 +10,11 @@ int main(){
     }
     for(int i=0;i<a;i++){
         if(prime=1){
-            printf("Not Prime");
+            printf("Prime");
+            break;
         }
         else{
-            printf("Prime");
+            printf("Not Prime");
         }
         
     }return 0;
