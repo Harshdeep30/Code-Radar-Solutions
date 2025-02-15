@@ -5,7 +5,7 @@ int main(){
     for(int i=2;i<=a;i++){
         if(a%i==0){
             prime=1;
-            break;
+            
             
         }
     }
@@ -19,6 +19,7 @@ int main(){
             break;
         }
         
-    }return 0;
+    }
+    return 0;
     
 }
