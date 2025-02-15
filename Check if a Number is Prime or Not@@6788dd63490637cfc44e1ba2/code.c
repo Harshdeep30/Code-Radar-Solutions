@@ -2,13 +2,13 @@
 int main(){
     int a,prime;
     scanf("%d",&a);
-    for(int i=0;i<a;i++){
-        if(i%a==0){
+    for(int i=2;i<a;i++){
+        if(a%i==0){
             prime=1;
             break;
         }
     }
-    for(int i=0;i<a;i++){
+    for(int i=2;i<a;i++){
         if(prime=1){
             printf("Prime");
             break;
