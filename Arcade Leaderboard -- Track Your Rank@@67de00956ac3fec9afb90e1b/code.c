@@ -17,7 +17,7 @@ int main(){
     int count =0;
     for(int i=0;i<n;i++){
         for(int j=0;j<m;j++){
-            if(a[i]>a[j]){
+            if(ranked[i]>player[j]){
                 count=count+1;
             }
         }
