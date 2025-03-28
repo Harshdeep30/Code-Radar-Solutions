@@ -1,29 +1,25 @@
 #include <stdio.h>
 int main(){
-    int a,n;
-    scanf("%d",&n);
-    a=n;
-    for(int i=1;i<=a;i++){
-        for(int j=1;j<=a-i;j++){
+    int a;
+    scanf("%d",&a);
+    int str=1;
+    int sp=a/2;
+    int ml=a/2+1;
+    for(int i=0;i<a;i++){
+        for(int j=0;j<=sp;j++){
             printf(" ");
         }
-        for(int k=1;k<=2*i-1;k++){
+       for(int k=0;k<=str;k++){
             printf("*");
-        }
-        printf("\n");
+
+       }
+       if(i<=ml){
+        st=st+2;
+        sp=sp-1;
+       }
+       else{
+        st=st-2;
+        sp=sp+1;
+       }
     }
-
-    for(int l=1;l<=a;l++){
-        for(int m=1;m<=l;m++){
-            printf(" ");
-        }
-        for(int x=1;x<=2*(a-l)-1;x++){
-            printf("*");
-        }
-        printf("\n");
-    }
-
-
-
-
 }
