@@ -2,7 +2,7 @@
 int main(){
     int a;
     scanf("%d",&a);
-    int str=1;
+    int st=1;
     int sp=a/2;
     int ml=a/2+1;
     for(int i=0;i<a;i++){
