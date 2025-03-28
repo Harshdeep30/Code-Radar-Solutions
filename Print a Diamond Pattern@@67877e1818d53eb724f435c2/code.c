@@ -21,6 +21,6 @@ int main(){
         st=st-2;
         sp=sp+1;
        }
-       printf("\n");
     }
+       printf("\n");
 }
