@@ -6,10 +6,10 @@ int main(){
     int sp=a/2;
     int ml=a/2+1;
     for(int i=0;i<a;i++){
-        for(int j=0;j<=sp;j++){
+        for(int j=1;j<=sp;j++){
             printf(" ");
         }
-       for(int k=0;k<=st;k++){
+       for(int k=1;k<=st;k++){
             printf("*");
 
        }
@@ -21,5 +21,6 @@ int main(){
         st=st-2;
         sp=sp+1;
        }
+       printf("\n");
     }
 }
