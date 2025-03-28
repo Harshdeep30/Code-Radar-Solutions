@@ -1,7 +1,8 @@
 #include <stdio.h>
 int main(){
-    int a;
-    scanf("%d",&a);
+    int n;
+    scanf("%d",&n);
+    int a=2*n-1;
     int st=1;
     int sp=a/2;
     int ml=a/2+1;
