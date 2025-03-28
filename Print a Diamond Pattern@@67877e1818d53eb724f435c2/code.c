@@ -13,7 +13,7 @@ int main(){
             printf("*");
 
        }
-       if(i<=ml){
+       if(i<ml){
         st=st+2;
         sp=sp-1;
        }
