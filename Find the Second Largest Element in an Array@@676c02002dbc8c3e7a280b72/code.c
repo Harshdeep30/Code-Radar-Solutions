@@ -16,12 +16,12 @@ int main(){
 
             }
             else{
-                q=1;
+                q=10;
             }
         }
     }
     for(int i=0;i<x;i++){
-        if(q=1){
+        if(q==10){
             printf("-1");
         }else{
         printf("%d",a[1]);
