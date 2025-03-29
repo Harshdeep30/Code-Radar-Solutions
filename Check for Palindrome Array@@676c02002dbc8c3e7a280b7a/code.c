@@ -16,18 +16,13 @@ int main(){
         for(int j=n;j>=n;j--){
             if(a[i]!=a[j]){
                 printf("NO");
-            }
                 break;
+            }
             else if(a[i]==a[j]){
                 printf("YES");
                 break;
             }
         }
     }
-    // if(p){
-    //     printf("YES");
-    // }
-    // else{
-    //     printf("NO");
-    // }
+    
 }
