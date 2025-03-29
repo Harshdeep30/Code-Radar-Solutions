@@ -2,7 +2,6 @@
 int main(){
     int x;
     int q;
-    int r=-1;
     scanf("%d",&x);
     if(x==1){
             printf("%d",r);
@@ -20,14 +19,10 @@ int main(){
                 a[j]=temp;
 
             }
-            
-        }
+     }
     }
     for(int i=0;i<x;i++){
-        
-        
         printf("%d",a[1]);
-        break;
-        
+        break; 
         }
     }
