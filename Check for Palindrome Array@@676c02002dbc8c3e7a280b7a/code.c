@@ -22,6 +22,7 @@ int main(){
         }
         if(p){
             printf("YES");
+            break;
         }
         else{
             printf("NO");
