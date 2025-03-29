@@ -12,7 +12,7 @@ int main(){
     int b;
     b=x/2;
     int p=1;
-    for(int i=0,j=x-1;i<j;i++;j--){
+    for(int i=0,j=x-1;i<j;i++,j--){
         
             if(a[i]!=a[j]){
                 p=0;    
