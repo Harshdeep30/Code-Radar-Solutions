@@ -18,13 +18,16 @@ int main(){
                 p=1;
                 
             }
+            else if(a[i]!=a[j]){
+                p=0;
+            }
             
         }
-        if(p){
+        if(p=1){
             printf("YES");
             break;
         }
-        else{
+        else if(p=0){
             printf("NO");
             break;
         }
