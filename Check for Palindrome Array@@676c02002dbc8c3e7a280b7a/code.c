@@ -32,11 +32,11 @@ int main(){
         //     break;
         // }
     }
-    if(p=1){
+    if(p==1){
             printf("YES");
           
         }
-        else if(p=0){
+        else if(p==0){
             printf("NO");
             
         }
