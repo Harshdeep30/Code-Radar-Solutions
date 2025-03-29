@@ -16,8 +16,8 @@ int main(){
         for(int j=n;j>=n;j--){
             if(a[i]!=a[j]){
                 printf("NO");
-                break;
             }
+                break;
             else if(a[i]==a[j]){
                 printf("YES");
                 break;
