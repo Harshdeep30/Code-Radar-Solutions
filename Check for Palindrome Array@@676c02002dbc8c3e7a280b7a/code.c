@@ -11,7 +11,7 @@ int main(){
     n=x/2;
     int b;
     b=x/2;
-    int p;
+    int p=0;
     for(int i=0;i<=n;i++){
         for(int j=x;j>=n;j--){
             if(a[i]!=a[j]){
