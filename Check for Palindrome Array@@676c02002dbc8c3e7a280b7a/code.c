@@ -23,7 +23,16 @@ int main(){
             }
             
         }
-        if(p=1){
+        // if(p=1){
+        //     printf("YES");
+        //     break;
+        // }
+        // else if(p=0){
+        //     printf("NO");
+        //     break;
+        // }
+    }
+    if(p=1){
             printf("YES");
             break;
         }
@@ -31,6 +40,5 @@ int main(){
             printf("NO");
             break;
         }
-    }
     
 }
