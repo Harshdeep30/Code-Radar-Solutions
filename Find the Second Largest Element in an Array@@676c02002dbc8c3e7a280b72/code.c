@@ -13,6 +13,9 @@ int main(){
                 a[i]=a[j];
                 a[j]=temp;
             }
+            else{
+                printf("-1");
+            }
         }
     }
     for(int i=0;i<x;i++){
