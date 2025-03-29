@@ -16,7 +16,7 @@ int main(){
         for(int j=x;j>=n;j--){
             if(a[i]==a[j]){
                 p=1;
-                break;
+                
             }
             
         }
