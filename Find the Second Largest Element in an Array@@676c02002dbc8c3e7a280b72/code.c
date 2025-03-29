@@ -19,10 +19,12 @@ int main(){
         }
     }
     for(int i=0;i<x;i++){
+        if(x==1){
+            printf("-1");
+        }
         
         printf("%d",a[1]);
         break;
-        else{
-            printf("-1");
-        }}
+        
+        }
     }
