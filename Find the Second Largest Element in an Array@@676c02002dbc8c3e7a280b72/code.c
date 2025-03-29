@@ -19,7 +19,7 @@ int main(){
         }
     }
     for(int i=0;i<x;i++){
-        if(x==1){
+        if(i==0){
             printf("-1");
         }
         
