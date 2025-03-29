@@ -15,14 +15,17 @@ int main(){
     for(int i=0;i<=n;i++){
         for(int j=n;j>=n;j--){
             if(a[i]==a[j]){
-                p=1;
+                printf("YES");
+            }
+            else{
+                printf("NO");
             }
         }
     }
-    if(p){
-        printf("YES");
-    }
-    else{
-        printf("NO");
-    }
+    // if(p){
+    //     printf("YES");
+    // }
+    // else{
+    //     printf("NO");
+    // }
 }
