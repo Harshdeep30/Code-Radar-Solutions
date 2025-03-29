@@ -16,6 +16,6 @@ int main(){
         }
     }
     for(int i=0;i<x;i++){
-        printf("%d",a[-1]);
+        printf("%d",a[-2]);
     }
 }
