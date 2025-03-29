@@ -14,11 +14,11 @@ int main(){
     int p;
     for(int i=0;i<=n;i++){
         for(int j=x;j>=n;j--){
-            if(a[i]==a[j]){
-                p=1;    
+            if(a[i]!=a[j]){
+                p=0;    
             }
-            else if(a[i]!=a[j]){
-                p=0;
+            else if(a[i]==a[j]){
+                p=1;
                 
             }
             
