@@ -2,9 +2,10 @@
 int main(){
     int x;
     int q;
+    int r=-1;
     scanf("%d",&x);
     if(x==1){
-            printf("-1");
+            printf("%d",r);
             
         }
     int a[x];
