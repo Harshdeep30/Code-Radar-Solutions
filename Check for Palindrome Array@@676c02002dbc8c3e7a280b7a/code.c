@@ -21,6 +21,7 @@ int main(){
             }
             else if(a[i]!=a[j]){
                 p=0;
+                break;
             }
             
         }
