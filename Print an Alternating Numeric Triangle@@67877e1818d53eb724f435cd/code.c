@@ -15,7 +15,7 @@ int main(){
 
         }
     else{
-        for(int j=i;j<0;j++){
+        for(int j=i;j>0;j++){
             if(j%2!=0){
                 printf("0 ");
 
