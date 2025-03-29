@@ -1,7 +1,7 @@
 incrementToPrimeDigits(int N){
     int a,b,c;
     while(N>0){
-        a=N\10;
+        a=N/10;
         if(a>7){
             b=2;
         }
