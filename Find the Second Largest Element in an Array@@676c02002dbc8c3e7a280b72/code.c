@@ -5,7 +5,7 @@ int main(){
     scanf("%d",&x);
     if(x==1){
             printf("-1");
-            break;
+            
         }
     int a[x];
     for(int i=0;i<x;i++){
