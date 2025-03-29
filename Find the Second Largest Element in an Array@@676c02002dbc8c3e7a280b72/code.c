@@ -6,8 +6,8 @@ int main(){
     for(int i=0;i<x;i++){
         scanf("%d",&a[i]);
     }
-    for(int i=0;i<x;i++){
-        for(int j=i+1;j<a;j++){
+    for(int i=0;i<=x;i++){
+        for(int j=i+1;j<=x;j++){
             if(a[i]>a[j]){
                 int temp=a[i];
                 a[i]=a[j];
@@ -15,7 +15,7 @@ int main(){
             }
         }
     }
-    for(int i=0;i<x;i++){
+    for(int i=0;i<=x;i++){
         printf("%d",a[x]);
     }
 }
