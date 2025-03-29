@@ -15,17 +15,11 @@ int main(){
                 a[j]=temp;
 
             }
-            else{
-                q=10;
-            }
+            
         }
     }
     for(int i=0;i<x;i++){
-        if(q==10){
-            printf("-1");
-            break;
-        }else{
+        
         printf("%d",a[1]);
         break;}
     }
-}
