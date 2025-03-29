@@ -19,10 +19,10 @@ int main(){
             }
         }
     }
-    if(p==1){
+    if(p){
         printf("YES");
     }
     else{
-        printf("No");
+        printf("NO");
     }
 }
