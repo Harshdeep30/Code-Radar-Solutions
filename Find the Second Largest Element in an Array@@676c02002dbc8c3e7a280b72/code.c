@@ -3,6 +3,9 @@ int main(){
     int x;
     int q;
     scanf("%d",&x);
+    if(x==1){
+            printf("-1");
+        }
     int a[x];
     for(int i=0;i<x;i++){
         scanf("%d",&a[i]);
@@ -19,9 +22,7 @@ int main(){
         }
     }
     for(int i=0;i<x;i++){
-        if(x==1){
-            printf("-1");
-        }
+        
         
         printf("%d",a[1]);
         break;
