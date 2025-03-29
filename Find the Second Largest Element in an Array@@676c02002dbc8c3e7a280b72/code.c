@@ -3,8 +3,7 @@ int main(){
     int x;
     int q;
     scanf("%d",&x);
-    if(x==1){
-            printf("%d",r);
+    
             
         }
     int a[x];
