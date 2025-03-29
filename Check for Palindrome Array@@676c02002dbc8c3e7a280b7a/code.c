@@ -14,12 +14,12 @@ int main(){
     int p=1;
     for(int i=0;i<=n;i++){
         for(int j=n;j>=n;j--){
-            if(a[i]==a[j]){
-                printf("YES");
+            if(a[i]!=a[j]){
+                printf("NO");
                 break;
             }
-            else{
-                printf("NO");
+            else if(a[i]==a[j]){
+                printf("YES");
                 break;
             }
         }
