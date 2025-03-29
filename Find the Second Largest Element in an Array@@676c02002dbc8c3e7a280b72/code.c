@@ -12,9 +12,10 @@ int main(){
                 int temp=a[i];
                 a[i]=a[j];
                 a[j]=temp;
+
             }
             else{
-                printf("-1");
+                return -1;
             }
         }
     }
